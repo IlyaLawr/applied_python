@@ -1,0 +1,12 @@
+{
+name: 'C',         
+host: 'localhost', 
+port: 8082, 
+storage: 'c:\Users\Ilya\Desktop\async_file_storage/tmp/c', 
+file_lifetime: 7,
+nodes_from_which_we_save: ['A'],
+nodes: {
+        A: 'http://localhost:8080', 
+        B: 'http://localhost:8081',
+}
+}
